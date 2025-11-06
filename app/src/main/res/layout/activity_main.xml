@@ -36,34 +36,54 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
+    <Button
         android:id="@+id/starterTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Förrätter"
+        android:fontFamily="@font/medievalsharp"
+        android:text="@string/meny1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/dark_bege"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/mainsTextView"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resturantNameText" />
+        app:layout_constraintTop_toBottomOf="@+id/resturantNameText"
+        app:layout_constraintVertical_bias="0.035" />
 
-    <TextView
+    <Button
         android:id="@+id/mainsTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Huvudrätter"
+        android:fontFamily="@font/medievalsharp"
+        android:text="@string/meny2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/dark_bege"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resturantNameText" />
+        app:layout_constraintTop_toBottomOf="@+id/resturantNameText"
+        app:layout_constraintVertical_bias="0.037" />
 
-    <TextView
+    <Button
         android:id="@+id/dessertsTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Efterrätter"
+        android:fontFamily="@font/medievalsharp"
+        android:text="@string/meny3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/dark_bege"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/mainsTextView"
-        app:layout_constraintTop_toBottomOf="@+id/resturantNameText" />
+        app:layout_constraintTop_toBottomOf="@+id/resturantNameText"
+        app:layout_constraintVertical_bias="0.035" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

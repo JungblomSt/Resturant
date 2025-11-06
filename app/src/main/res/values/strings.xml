@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ResturantMeny</string>
+    <string name="meny2">Huvudrätter</string>
+    <string name="meny3">Efterrätter</string>
+    <string name="meny1">Förrätter</string>
 </resources>
