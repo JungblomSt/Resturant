@@ -1,6 +1,51 @@
 <resources>
     <string name="app_name">ResturantMeny</string>
-    <string name="menu2">Huvudrätter</string>
-    <string name="menu3">Efterrätter</string>
-    <string name="menu1">Förrätter</string>
+    <string name="menu2">Mains</string>
+    <string name="menu3">Desserts</string>
+    <string name="menu1">Starter</string>
+    <string name="price_default">0</string>
+    <string name="info_default">Here´s info about the disch</string>
+    <string name="head_text">Food with taste</string>
+    <string name="image_description_default">Food</string>
+
+    <!--    private val menu1 = mutableListOf("Surkorv", "Kött på pinne", "Gravlaxrulle")-->
+    <string name="head_text_starter1">Sour sausage</string>
+    <string name="info_text_starter1">Isterband (pork) in rye bread with carrot salad and horseradish cream</string>
+    <string name="price_text_starter1">8€</string>
+
+    <string name="head_text_starter2">Meat on a stick</string>
+    <string name="info_text_starter2">Herb-seasoned chicken, grilled with honey and malt vinegar glaze</string>
+    <string name="price_text_starter2">9€</string>
+
+    <string name="head_text_starter3">Gravesalmonroll</string>
+    <string name="info_text_starter3">Marinated salmon in flatbread with blue cheese coleslaw</string>
+    <string name="price_text_starter3">12€</string>
+
+    <!--    private val menu2 = mutableListOf("1/2 Kyckling","Riddarrester","Betbiffar")-->
+
+    <string name="head_text_main1">1/2 Chicken</string>
+    <string name="info_text_main1">Half a grilled chicken with root vegetable fries and garlic sauce</string>
+    <string name="price_text_main1">25€</string>
+
+    <string name="head_text_main2">Knightremains</string>
+    <string name="info_text_main2">Meat and fried root vegetables on a bread plate with eggs and pickled beets</string>
+    <string name="price_text_main2">19€</string>
+
+    <string name="head_text_main3">Beetsteaks</string>
+    <string name="info_text_main3">Beetroot and sunflowerseeds-steaks with wheat, flavored with feta cheese and thyme</string>
+    <string name="price_text_main3">17€</string>
+
+    <!--    private val menu3 = mutableListOf("Äppelkaka","Päron","Saffranspannkaka")-->
+
+    <string name="head_text_desert1">Applecake</string>
+    <string name="info_text_desert1">Crunchy cinnamon-spiced apple cake with honeymascarpone</string>
+    <string name="price_text_desert1">9€</string>
+
+    <string name="head_text_desert2">Pears</string>
+    <string name="info_text_desert2">Lingonberry-cooked pears with buttercream and blueberry syrup</string>
+    <string name="price_text_desert2">14€</string>
+
+    <string name="head_text_desert3">Saffronpancake</string>
+    <string name="info_text_desert3">Saffronpancake with whipped cream and salmonberry jam</string>
+    <string name="price_text_desert3">12€</string>
 </resources>
