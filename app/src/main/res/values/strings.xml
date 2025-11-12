@@ -24,7 +24,7 @@
     <!--    private val menu2 = mutableListOf("1/2 Kyckling","Riddarrester","Betbiffar")-->
 
     <string name="head_text_main1">1/2 Chicken</string>
-    <string name="info_text_main1">Isterband (pork) in rye bread with carrot salad and horseradish cream</string>
+    <string name="info_text_main1">Half a grilled chicken with root vegetable fries and garlic sauce</string>
     <string name="price_text_main1">25€</string>
 
     <string name="head_text_main2">Knightremains</string>

@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="menu2">Mat</string>
+<string name="menu3">Sött</string>
+<string name="menu1">Smått</string>
+<string name="price_default">0</string>
+<string name="info_default">Here´s info about the disch</string>
+<string name="head_text">Food with taste</string>
+<string name="image_description_default">Food</string>
 
-<!--    Isterband i rågbröd med morotssallad och pepparrotscreme-->
-<!--    Örtkryddad Kyckling, grillad med honung och maltvinägerglaze-->
-<!--    Gravad lax i tunnbröd med ädelostkålsallad-->
+    <!--    private val menu1 = mutableListOf("Surkorv", "Kött på pinne", "Gravlaxrulle")-->
+<string name="head_text_starter1">Surkorv</string>
+<string name="info_text_starter1">Isterband i rågbröd med morotssallad och pepparrotscreme</string>
+<string name="price_text_starter1">95:-</string>
 
-<!--    Rödbet- och solrosfröbiffar med matvete, smaksatt med fetaost och timjan-->
+<string name="head_text_starter2">Kött på pinne</string>
+<string name="info_text_starter2">Örtkryddad Kyckling, grillad med honung och maltvinägerglaze</string>
+<string name="price_text_starter2">110:-</string>
 
-<!--    Knäckig kanelkryddad äppelkaka med honungsmascarpone-->
-<!--    Lingonkokta päron med messmörsgrädde och blåbärssyrup-->
-<!--    Saffranspannkaka med vispad grädde och salmbärssylt-->
-<resources></resources>
+<string name="head_text_starter3">Gravlaxrulle</string>
+<string name="info_text_starter3">Gravad lax i tunnbröd med ädelostkålsallad</string>
+<string name="price_text_starter3">140:-</string>
+
+    <!--    private val menu2 = mutableListOf("1/2 Kyckling","Riddarrester","Betbiffar")-->
+
+<string name="head_text_main1">1/2 Kyckling</string>
+<string name="info_text_main1">En halv grillad kyckling med rotsakspommes och vitlökssås</string>
+<string name="price_text_main1">285:-</string>
+
+<string name="head_text_main2">Riddarrester</string>
+<string name="info_text_main2">Kött och stekta rotsaker på en brödtallrik med ägg och betor</string>
+<string name="price_text_main2">225:-</string>
+
+<string name="head_text_main3">Betbiffar</string>
+<string name="info_text_main3">Rödbet-och solrosfröbiffar med matvete, smaksatt med fetaost och timjan</string>
+<string name="price_text_main3">195:-</string>
+
+    <!--    private val menu3 = mutableListOf("Äppelkaka","Päron","Saffranspannkaka")-->
+
+<string name="head_text_desert1">Äppelkaka</string>
+<string name="info_text_desert1">Knäckig kanelkryddad äppelkaka med honungsmascarpone</string>
+<string name="price_text_desert1">95:-</string>
+
+<string name="head_text_desert2">Päron</string>
+<string name="info_text_desert2">Lingonkokta päron med messmörsgrädde och blåbärssyrup</string>
+<string name="price_text_desert2">160:-</string>
+
+<string name="head_text_desert3">Saffranspannkaka</string>
+<string name="info_text_desert3">Saffranskryddad ugnspannkaka med vispad grädde och salmbärssylt</string>
+<string name="price_text_desert3">145:-</string>
+    </resources>
