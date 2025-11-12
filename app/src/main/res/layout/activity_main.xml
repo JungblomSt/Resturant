@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/medievalsharp"
         android:text="Glada Galten"
-        android:textSize="24sp"
+        android:textSize="@dimen/big_size_text"
         android:textStyle="bold"
         />
 
@@ -41,7 +41,7 @@
             android:fontFamily="@font/medievalsharp"
             android:text="@string/menu1"
             android:textColor="@color/black"
-            android:textSize="14sp"
+            android:textSize="@dimen/medium_size_text"
             android:textStyle="bold" />
 
         <Button
@@ -70,20 +70,11 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="15dp"
-        android:backgroundTint="@color/dark_bege"
-        app:cardCornerRadius="16dp" >
 
-    <ListView
-        android:id="@+id/lv_menu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
 
-    </androidx.cardview.widget.CardView>
+    <!--// ================ MENU ITEM  =====================-->
+
 
 
 </LinearLayout>
+

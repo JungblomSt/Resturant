@@ -3,7 +3,10 @@ package com.example.resturantmeny
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.ListView
+import android.widget.Spinner
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,6 +14,7 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
+    // =========== VARIABLES ==============
     private lateinit var listView: ListView
     private lateinit var button1: Button
     private lateinit var button2: Button
@@ -33,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         button2 = findViewById(R.id.button_menu2)
         button3 = findViewById(R.id.button_menu3)
 
-        listView = findViewById(R.id.lv_menu)
+
 
         listViewAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, itemlist)
         listView.adapter = listViewAdapter

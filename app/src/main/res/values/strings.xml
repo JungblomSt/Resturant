@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">ResturantMeny</string>
-    <string name="menu2">Huvudrätter</string>
-    <string name="menu3">Efterrätter</string>
-    <string name="menu1">Förrätter</string>
+    <string name="menu2">Mains</string>
+    <string name="menu3">Desserts</string>
+    <string name="menu1">Starter</string>
+    <string name="price_default">0</string>
+    <string name="info_default">Here´s info about the disch</string>
+    <string name="head_text">Food with taste</string>
+    <string name="image_description_default">Food</string>
 </resources>
