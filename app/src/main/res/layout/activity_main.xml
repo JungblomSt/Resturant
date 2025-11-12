@@ -12,7 +12,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/img_head_logo"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:src="@drawable/gg_logga_fri_svart" />
@@ -70,11 +70,13 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-
-
-    <!--// ================ MENU ITEM  =====================-->
-
-
+    <include layout="@layout/course_card"
+        android:id="@+id/course_card_1"/>
+    <include layout="@layout/course_card"
+        android:id="@+id/course_card_2"/>
+    <include layout="@layout/course_card"
+        android:id="@+id/course_card_3"
+        />
 
 </LinearLayout>
 
