@@ -1,5 +1,6 @@
 package com.example.resturantmeny
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
@@ -23,6 +24,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var courseCard2: View
     private lateinit var courseCard3: View
 
+    private lateinit var mainLogo: View
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -35,6 +38,8 @@ class MainActivity : AppCompatActivity() {
         courseCard1 = findViewById(R.id.course_card_1)
         courseCard2 = findViewById(R.id.course_card_2)
         courseCard3 = findViewById(R.id.course_card_3)
+
+        mainLogo = findViewById(R.id.img_head_logo)
 
         val courseHead1 = courseCard1.findViewById<TextView>(R.id.corse_card_title_text)
         val courseHead2 = courseCard2.findViewById<TextView>(R.id.corse_card_title_text)
@@ -107,6 +112,13 @@ class MainActivity : AppCompatActivity() {
             coursePrice3.text = getString(R.string.price_text_desert3)
 
         }
+
+        // Click the image to go back to Main
+        mainLogo.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
 
 
 
