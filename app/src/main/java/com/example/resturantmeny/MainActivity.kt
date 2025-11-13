@@ -49,6 +49,18 @@ class MainActivity : AppCompatActivity() {
         val coursePrice3 = courseCard3.findViewById<TextView>(R.id.cours_card_price_text)
 
 
+        // Main Start
+        courseHead1.text = getString(R.string.head_text_main_start1)
+        courseInfo1.text = getString(R.string.info_text_main_start1)
+        coursePrice1.text = getString(R.string.arrow)
+
+        courseHead2.text = getString(R.string.head_text_main_start2)
+        courseInfo2.text = getString(R.string.info_text_main_start2)
+        coursePrice2.text = getString(R.string.arrow)
+
+        courseHead3.text = getString(R.string.head_text_main_start3)
+        courseInfo3.text = getString(R.string.info_text_main_start3)
+        coursePrice3.text = getString(R.string.arrow)
 
         // Starters
         button1.setOnClickListener {
