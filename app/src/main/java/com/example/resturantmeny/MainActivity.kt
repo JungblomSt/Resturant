@@ -53,6 +53,10 @@ class MainActivity : AppCompatActivity() {
         val coursePrice2 = courseCard2.findViewById<TextView>(R.id.cours_card_price_text)
         val coursePrice3 = courseCard3.findViewById<TextView>(R.id.cours_card_price_text)
 
+        courseCard1.setOnClickListener {
+            val intent = Intent(this, HereWeGoActivity::class.java)
+            startActivity(intent)
+        }
 
         // Main Start
         courseHead1.text = getString(R.string.head_text_main_start1)
@@ -110,7 +114,6 @@ class MainActivity : AppCompatActivity() {
             courseHead3.text = getString(R.string.head_text_desert3)
             courseInfo3.text = getString(R.string.info_text_desert3)
             coursePrice3.text = getString(R.string.price_text_desert3)
-
         }
 
         // Click the image to go back to Main
