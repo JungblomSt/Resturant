@@ -60,4 +60,20 @@
     <string name="head_text_desert3">Saffronpancake</string>
     <string name="info_text_desert3">Saffronpancake with whipped cream and salmonberry jam</string>
     <string name="price_text_desert3">12€</string>
+
+    <!--    Activitys Activity -->
+
+    <string name="head_activity1">Longbow</string>
+    <string name="info_activity1">Try shooting a longbow, we have bows for all ages and experienced instructors.</string>
+    <string name="none">-</string>
+
+    <string name="head_activity2">Carousel</string>
+    <string name="info_activity2">We have a wooden carousel that carries people up to 50kg.</string>
+
+    <string name="head_activity3">Bliss</string>
+    <string name="info_activity3">Imagine a two-meter crossbow on a stand, thats a bliss</string>
+
+    <string name="head_activity4">Swordtest</string>
+    <string name="info_activity4">Feel and grip swords from Roman times to the Renaissance. Try swinging them at a moving target</string>
+
 </resources>

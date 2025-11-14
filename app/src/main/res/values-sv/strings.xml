@@ -59,4 +59,19 @@
 <string name="head_text_desert3">Saffranspannkaka</string>
 <string name="info_text_desert3">Saffranskryddad ugnspannkaka med vispad grädde och salmbärssylt</string>
 <string name="price_text_desert3">145:-</string>
-    </resources>
+
+<!--    Activitys Activity -->
+
+<string name="head_activity1">Bågskytte</string>
+<string name="info_activity1">Prova att sjuta långbåge mot halmmål, vi har bågar för alla åldrar och erfarna instruktörer</string>
+<string name="none">-</string>
+
+<string name="head_activity2">Karusell</string>
+<string name="info_activity2">En handsnurrad träkarusell som garanterar snurrighet</string>
+
+<string name="head_activity3">Blida</string>
+<string name="info_activity3">Föreställ dig ett två meter stort armborst på en ställning, det är en blida och DU kan få skjuta!</string>
+
+<string name="head_activity4">Svärdstest</string>
+<string name="info_activity4">Känn och kläm på svärd från rommartid till renässansen. Prova att svinga dem mot ett rörligt mål</string>
+</resources>

@@ -57,6 +57,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, HereWeGoActivity::class.java)
             startActivity(intent)
         }
+        courseCard2.setOnClickListener {
+            val intent = Intent(this, ActivitysActivity::class.java)
+            startActivity(intent)
+        }
 
         // Main Start
         courseHead1.text = getString(R.string.head_text_main_start1)

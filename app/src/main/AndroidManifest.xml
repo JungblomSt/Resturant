@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ResturantMeny">
         <activity
+            android:name=".ActivitysActivity"
+            android:exported="false" />
+        <activity
             android:name=".HereWeGoActivity"
             android:exported="false" />
         <activity
