@@ -8,6 +8,17 @@
 <string name="head_text">Food with taste</string>
 <string name="image_description_default">Food</string>
 
+<!--    Meny Main Start -->
+<string name="head_text_main_start1">Hit åker vi</string>
+<string name="info_text_main_start1">Här är alla marknader vi åker till </string>
+<string name="arrow">\u2192</string>
+
+<string name="head_text_main_start2">Aktiviteter</string>
+<string name="info_text_main_start2">Vi gör inte bara mat, vi har roligt också. Här kan du läsa om våra aktiviteter</string>
+
+<string name="head_text_main_start3">Kontaktinfo eller nått</string>
+<string name="info_text_main_start3">Vill vi att du kontacktar oss? det är frågan.</string>
+
     <!--    private val menu1 = mutableListOf("Surkorv", "Kött på pinne", "Gravlaxrulle")-->
 <string name="head_text_starter1">Surkorv</string>
 <string name="info_text_starter1">Isterband i rågbröd med morotssallad och pepparrotscreme</string>

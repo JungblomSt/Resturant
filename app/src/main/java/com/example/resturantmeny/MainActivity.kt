@@ -1,5 +1,6 @@
 package com.example.resturantmeny
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.ArrayAdapter
@@ -23,6 +24,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var courseCard2: View
     private lateinit var courseCard3: View
 
+    private lateinit var mainLogo: View
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -36,6 +39,8 @@ class MainActivity : AppCompatActivity() {
         courseCard2 = findViewById(R.id.course_card_2)
         courseCard3 = findViewById(R.id.course_card_3)
 
+        mainLogo = findViewById(R.id.img_head_logo)
+
         val courseHead1 = courseCard1.findViewById<TextView>(R.id.corse_card_title_text)
         val courseHead2 = courseCard2.findViewById<TextView>(R.id.corse_card_title_text)
         val courseHead3 = courseCard3.findViewById<TextView>(R.id.corse_card_title_text)
@@ -48,7 +53,23 @@ class MainActivity : AppCompatActivity() {
         val coursePrice2 = courseCard2.findViewById<TextView>(R.id.cours_card_price_text)
         val coursePrice3 = courseCard3.findViewById<TextView>(R.id.cours_card_price_text)
 
+        courseCard1.setOnClickListener {
+            val intent = Intent(this, HereWeGoActivity::class.java)
+            startActivity(intent)
+        }
 
+        // Main Start
+        courseHead1.text = getString(R.string.head_text_main_start1)
+        courseInfo1.text = getString(R.string.info_text_main_start1)
+        coursePrice1.text = getString(R.string.arrow)
+
+        courseHead2.text = getString(R.string.head_text_main_start2)
+        courseInfo2.text = getString(R.string.info_text_main_start2)
+        coursePrice2.text = getString(R.string.arrow)
+
+        courseHead3.text = getString(R.string.head_text_main_start3)
+        courseInfo3.text = getString(R.string.info_text_main_start3)
+        coursePrice3.text = getString(R.string.arrow)
 
         // Starters
         button1.setOnClickListener {
@@ -93,8 +114,14 @@ class MainActivity : AppCompatActivity() {
             courseHead3.text = getString(R.string.head_text_desert3)
             courseInfo3.text = getString(R.string.info_text_desert3)
             coursePrice3.text = getString(R.string.price_text_desert3)
-
         }
+
+        // Click the image to go back to Main
+        mainLogo.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
 
 
 
